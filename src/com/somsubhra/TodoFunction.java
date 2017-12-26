@@ -15,7 +15,6 @@ public class TodoFunction {
     //remove list item
 
     public void removeItem(int index) {
-        String myItem=todoList.get(index);
         todoList.remove(index);
     }
 
